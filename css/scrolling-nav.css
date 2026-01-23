@@ -20,6 +20,31 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Nanum Myeongjo', serif;
 }
 
+/* Responsive images and embeds */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+/* Reduce padding on mobile */
+@media (max-width: 767px) {
+	.p-5 {
+		padding: 1.5rem !important;
+	}
+
+	section {
+		padding: 50px 0;
+	}
+
+	header {
+		padding: 60px 0 0;
+	}
+}
+
 
 /*p {
 	font-family: 'Nanum Myeongjo', serif;
